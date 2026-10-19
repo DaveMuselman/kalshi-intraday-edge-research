@@ -1,0 +1,31 @@
+# Never publish actual market archives, broker logs or user credentials
+data/
+runs/
+*.pem
+*.key
+.env
+.env.*
+*.sqlite
+*.sqlite-*
+*.jsonl.gz
+*.npz
+*.p12
+*.pfx
+*.zip
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+!data/.gitkeep
+!runs/.gitkeep
+
+# Batch research outputs containing source hashes and potentially protected data
+DISCOVERY_RUNS/
+engine/prepared_native200/
+engine/*_results.json
+engine/*_traces.json
