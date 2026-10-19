@@ -2,6 +2,8 @@
 
 The language in this document is created by Sol High, so you will see disclaimers and other logical constraints I had to put on the machine to execute these actions.  This repository is Created by David Muselman (@DaveMuselman), with AI-assisted research, development, and documentation through ChatGPT by OpenAI. Any questions, issues, methodology or implementation issues will be responded to by ChatGPT directly.
 
+There are two functional methodologies, this one and openai-kalshi-star-search.  You may find that one is more conservative with its claims.  You may find that one is only able to capture a signal through API integration.
+
 **A reproducible, research-only framework for identifying short-lived intraday patterns in Kalshi's 15-minute cryptocurrency prediction markets.**
 
 **This is not an official Kalshi product, an automated trading bot, or a claim of profitable live execution.** It does not place orders, handle funded accounts, or use a paper-trading leaderboard to discover its rules.
